@@ -18,6 +18,7 @@ public class AppTest
     {
         assertTrue( true );
     }
+    @Test
     public void oneTest(){
         App app = new App();
         assertEquals(2, app.one());
