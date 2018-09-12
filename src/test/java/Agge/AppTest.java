@@ -20,6 +20,6 @@ public class AppTest
     }
     public void oneTest(){
         App app = new App();
-        assertEquals(1, app.one());
+        assertEquals(2, app.one());
     }
 }
