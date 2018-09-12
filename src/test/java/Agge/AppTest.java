@@ -23,4 +23,9 @@ public class AppTest
         App app = new App();
         assertEquals(1, app.one());
     }
+    @Test
+    public void TwoTest(){
+        App app = new App();
+        assertEquals(2, app.two());
+    }
 }
