@@ -21,6 +21,6 @@ public class AppTest
     @Test
     public void oneTest(){
         App app = new App();
-        assertEquals(2, app.one());
+        assertEquals(1, app.one());
     }
 }
